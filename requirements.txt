@@ -1,0 +1,9 @@
+beautifulsoup4==4.12.3
+certifi==2024.12.14
+charset-normalizer==3.4.1
+idna==3.10
+pip-autoremove==0.10.0
+requests==2.32.3
+setuptools==75.6.0
+soupsieve==2.6
+urllib3==2.3.0
