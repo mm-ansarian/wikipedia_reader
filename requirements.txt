@@ -3,6 +3,9 @@ certifi==2024.12.14
 charset-normalizer==3.4.1
 idna==3.10
 pip-autoremove==0.10.0
+PyQt6==6.8.0
+PyQt6-Qt6==6.8.1
+PyQt6_sip==13.9.1
 requests==2.32.3
 setuptools==75.6.0
 soupsieve==2.6

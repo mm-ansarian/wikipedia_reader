@@ -9,12 +9,54 @@ You should just give the url of a page as input and then see the result.
 The web page language should be English or Persian, otherwise the program will not work correctly; because the other languages or not supported.
 
 ## How to run
-You can open the "Wikipedia Reader.py" with your favorite IDE and run it.
-Or you can also use a command prompt to run this program.
+
+#### In developer mode
+You can see the steps to run the code below:
+1. Install `python3` on your system.
+2. Clone the project repository:
+```bash
+git clone https://github.com/mm-ansarian/Wikipedia_Reader.git
+``` 
+or 
+```bash
+git clone git@github.com:mm-ansarian/Wikipedia_Reader.git
+```
+3. Open the project folder.
+4. Install the required Python packages(`PyQt6`, `beautifulsoup4` and `requests`). You can do this by using the `requirements.txt`:
+```bash
+pip install -r requirements.txt
+```
+5. Run `app.py`.
+
+#### An executable file
+To run the project as an executable file, You can use pyinstaller or other gadgets.
+If you are using another gadget, reading the guid can be helpful for you.
+But if you are using pyinstaller, here is the guid to convert `app.py` to an executable file:
+1. Open the project folder in your command prompt.
+2. Install required packages on the python of your system(I offer you to not use a virtual environment, becaus it can make a problem when you run the executable file) using this command:
+```bash
+pip install -r requirements.txt
+```
+3. Install `pyinstaller` on the python of your system(or you can even use `auto-py-to-exe`):
+```bash
+pip install pyinstaller
+```
+or 
+```bash
+pip install auto-py-to-exe
+```
+4. Run the command below to create the executable file:
+```bash
+pyinstaller --noconfirm --onefile --windowed --icon "icon.ico" --name "Wikipedia Reader" --add-data "icon.ico;." --add-data "icons;icons/"  "app.py"
+```
+5. Run `Wikipedia Reader.exe`.
 
 ## Used tools
 - **Programming language**: Python
+    - GUI: PyQt6
+    - Web scrapping: beautifulsoup4, requests 
 
 ## TODO
+- [x] Make a graphical user interface.
+- [ ] Add dark mode to the user interface.
 - [ ] Improve the performance.
-- [ ] Make a graphical user interface.
