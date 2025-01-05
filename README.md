@@ -53,9 +53,6 @@ pyinstaller --noconfirm --onefile --windowed --icon "icon.ico" --name "Wikipedia
 
 ## Used tools
 - **Programming language**: Python
-    - PyQt6
-    - beautifulsoup4
-    - requests
 - **GUI**: Qt 
 
 ## TODO
