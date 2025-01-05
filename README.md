@@ -6,7 +6,7 @@ So I started to write the codes and when I finished programming, I decided to pu
 ## Introduction
 This is a program to extract the headings of the wikipedia pages.
 You should just give the url of a page as input and then see the result.
-The web page language should be English or Persian, otherwise the program will not work correctly; because the other languages or not supported.
+The web page language can be in different languages such as English, Arabic, Persian, etc.
 
 ## How to run
 
