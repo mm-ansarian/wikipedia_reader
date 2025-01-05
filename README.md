@@ -53,8 +53,10 @@ pyinstaller --noconfirm --onefile --windowed --icon "icon.ico" --name "Wikipedia
 
 ## Used tools
 - **Programming language**: Python
-    - GUI: PyQt6
-    - Web scrapping: beautifulsoup4, requests 
+    - PyQt6
+    - beautifulsoup4
+    - requests
+- **GUI**: Qt 
 
 ## TODO
 - [x] Make a graphical user interface.
